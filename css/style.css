@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+#canvas {
+    z-index: 1;
+}
+
+
+
+#modal {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#modal>div {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+}
+
+#modal>div>button {
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
